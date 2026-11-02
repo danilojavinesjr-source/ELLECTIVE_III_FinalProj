@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="logo-container">
+        <img src="logo.png" alt="Dream Dormitory Logo" class="main-logo">
+    </div>
+    <div class="headerTittle">Dream Dormitory</div>
+    <div class="lowersubtitle">Your Budget Meets Comfort</div>
+
+    <!---------------- Choices-------------------->
+    <div class="choices" id="choices">
+        <div class="card dark">
+            <p>I already have an account</p>
+            <button onclick="showLoginOptions()">Login</button>
+        </div>
+
+        <div class="card light">
+            <p>I'm new here!</p>
+            <button onclick="window.location.href='Register.php'">Create an account</button>
+        </div>
+    </div>
+
+    <!-------------------- selection-------->
+    <div class="selectionFrame" id="loginOptions">
+        <p class="select_subt">Select Login Type</p>
+        <button onclick="window.location.href='admin_login.php'">Admin</button>
+        <button onclick="window.location.href='user_login.php'">User</button>
+        <button onclick="goBack()">Back</button>
+    </div>
+</div>
+
+<script>
+function showLoginOptions() {
+    document.getElementById("choices").style.display = "none";
+    document.getElementById("loginOptions").style.display = "flex";
+
+
+}
+
+function goBack() {
+    document.getElementById("choices").style.display = "flex";
+    document.getElementById("loginOptions").style.display = "none";
+}
+</script>
+
+</body>
+</html>
