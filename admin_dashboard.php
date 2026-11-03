@@ -16,7 +16,10 @@ if (!$conn) {
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8f47331 (Modified database request)
 ?>
 
 
