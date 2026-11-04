@@ -8,6 +8,11 @@ and who is assign in those rooms aswell as a part where the admin can input read
 The record section has a button to generate monthly rent and set tenats status to paid when they are clear for pending bills
 
 
+
+Deployed System URL ===  http://ellective-3-project.infinityfreeapp.com/start.html
+GITHUB Repository  === https://github.com/danilojavinesjr-source/ELLECTIVE_III_FinalProj.git
+
+
 Folder Structure of Dream Dormitory System
 
 
