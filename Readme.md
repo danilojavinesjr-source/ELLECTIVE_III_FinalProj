@@ -8,3 +8,31 @@ and who is assign in those rooms aswell as a part where the admin can input read
 The record section has a button to generate monthly rent and set tenats status to paid when they are clear for pending bills
 
 
+Folder Structure of Dream Dormitory System
+
+
+>ELLEC_II_FINALS_PROJECT_DANILO G. JAVINES JR
+
+  >Access Login
+	 >admin_login.php
+	 >user_login.php
+
+  >Dashboards
+	 >admin_dashboard.php
+	 >user_dashboard.php
+
+  >images
+	 >cover.jpg
+	 >dahoon.jpg
+	 >dormitory.jpg
+	 >hotel.jpg
+	 >leaves.jpd
+	 >logo_admin.png
+	 >logo.png
+
+  >logout.php
+  >Register.php
+  >start.html
+
+  
+	
